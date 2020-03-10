@@ -1,0 +1,26 @@
+span.a{
+display:inline;
+width:100px;
+height:100px;
+padding:1px;
+border:1px solid blue;
+background-color:yellow;
+}
+span.b
+{
+display:inline-block;
+width:100px;
+height:100px;
+padding:5px;
+border:10px solid red;
+background-color:yellow;
+}
+span.c
+{
+display:block;
+width:100px;
+height:100px;
+padding:5px;
+border:10px solid green;
+background-color:yellow;
+}
