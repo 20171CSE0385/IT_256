@@ -1,0 +1,23 @@
+<html>
+<head><title>
+Image inserting</title>
+<style>
+h1::before{
+content:url(/home/6CSE6/20171CSE0385/CSS/source.gif);
+}
+h1::after{
+content:url(/home/6CSE6/20171CSE0385/CSS/source.gif);
+}
+h1::selection{
+color:red;
+background:yellow;
+}
+</style>
+<body>
+<h1>This is heading</h1>
+<p>This is befor :: pseudo element inserts content befor the content</p>
+<h1>Thos is headong</h1>
+<p><b>Note:</b>IE8 supports the content property only if it is proper</p>
+</body>
+</html>
+
